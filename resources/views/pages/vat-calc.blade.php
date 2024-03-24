@@ -49,7 +49,7 @@
             } else if (operation === 2) {
                 let netTotal = Math.round(((total/1.15) - total) * (-1))
 
-                document.getElementById('result').innerText = `VAT Payable : ${netTotal}`
+                document.getElementById('result').innerText = `VAT : ${netTotal}`
                 document.getElementById('result').classList.remove('d-none')
             } else {
                 alert("Please select an operation for calculating vat.")
